@@ -1,0 +1,24 @@
+body {
+  background: lightblue;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.page {
+  width: 80%;
+  margin: 2em auto; }
+
+.boton {
+  display: inline-block;
+  background: green;
+  line-height: 3em;
+  padding: 0 2em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 1.5em;
+  border: 1px solid rgba(0, 0, 0, 0.5); }
+  .boton:hover {
+    background: #006700; }
+  .boton:active {
+    transform: scale(0.95); }

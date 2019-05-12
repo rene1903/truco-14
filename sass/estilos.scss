@@ -1,0 +1,29 @@
+body {
+    background: lightblue;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.page {
+    width: 80%;
+    margin: 2em auto;
+}
+.boton {
+    $botton-bg:green;
+    display: inline-block;
+    background: $botton-bg;
+    line-height: 3em;
+    padding: 0 2em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 1.5em;
+    border: 1px solid rgba(#000,0.5);
+    &:hover {
+        background: darken($botton-bg,5);
+    }
+    // &:active es el evento de cliquear, con el scale() se reduce o agranda
+    &:active {
+        transform: scale(0.95);
+    }
+}
